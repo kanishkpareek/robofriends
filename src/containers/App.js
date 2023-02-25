@@ -44,7 +44,7 @@ class App extends Component {
     else{
       return (
         <ErrorBoundry>
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
             <Routes>
               <Route path='/' element={
                 <div className='tc'>

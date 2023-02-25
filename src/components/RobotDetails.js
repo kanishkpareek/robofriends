@@ -19,7 +19,7 @@ class RobotDetails extends Component{
             <div>
                 <div className="tc pa4 shadow-3" style={{background: '#053b7ef2', borderBottom: '3px solid #ffd700'}}>
                     <h1 className="yellow f1" style={{margin: '0 0 20px 0'}}>RoboFriends</h1>
-                    <div style={{height: '68px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a style={{fontWeight: '600'}} className="f4 link dim ph3 pv2 mb2 dib black bg-yellow" href="/">View all RoboFriends</a></div>
+                    <div style={{height: '68px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a style={{fontWeight: '600'}} className="f4 link dim ph3 pv2 mb2 dib black bg-yellow" href="/robofriends">View all RoboFriends</a></div>
                 </div>
                 <section className="pa4" style={{display: 'flex', alignItems: 'center', height: '500px'}}>
                     <div className="fl w-40 tc">
