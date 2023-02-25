@@ -1,0 +1,13 @@
+ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    list-style: circle;
+}
+ul li span{
+    font-size: 20px;
+}
+ul li strong{
+    font-size: 24px;
+    margin-left: 10px;
+}
