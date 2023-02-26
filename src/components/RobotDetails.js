@@ -21,7 +21,7 @@ class RobotDetails extends Component{
                     <h1 className="yellow f1" style={{margin: '0 0 20px 0'}}>RoboFriends</h1>
                     <div style={{height: '68px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a style={{fontWeight: '600'}} className="f4 link dim ph3 pv2 mb2 dib black bg-yellow" href="/robofriends">View all RoboFriends</a></div>
                 </div>
-                <section className="pa4" style={{display: 'flex', alignItems: 'center', height: '500px'}}>
+                <section className="pa4 main-section">
                     <div className="fl w-40 tc">
                         <div className="bg-light-green pa2 shadow-5" style={{width: '300px', height: '300px', borderRadius: '50%', display: 'inline-block'}}>
                             <img alt="robots" src={`https://robohash.org/${RobotDetails[0].id}?size=200x200`} />
